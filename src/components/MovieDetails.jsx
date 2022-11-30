@@ -1,18 +1,20 @@
-// import { useEffect } from "react";
+// import { useEffect, useState } from "react";
+// import { useParams } from "react-router-dom";
 
 const MovieDetails = () => {
     
-// const fetchTheMovie = async() => {
-//     const response = await fetch(`http://www.omdbapi.com/?apikey=be0e715&i=tt0241527`)
-//     if (response.ok) {
-//         const data = await response.json();
-//     }
-// }
+// const [movie, setMovie] = useState(undefined)
+// const params = useParams()
+//   console.log('PARAMS', params)
+//   console.log('The movie plot is', params.Plot)
 
-// useEffect(() => {
-//     fetchTheMovie();
-//     console.log("movie fetched!")
-// }, [])
+//  useEffect(() => {
+//     const fetchTheMovie = async () => {
+//     const response = await fetch(`http://www.omdbapi.com/?apikey=be0e715&i=tt0241527`)
+//     const data = await response.json();
+//     let detailsToShow = data.find((m) => m.Plot.toString() === params.Plot)
+//     setMovie(detailsToShow);
+// }}, [])
 
     return (
         <>
