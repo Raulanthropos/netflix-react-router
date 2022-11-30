@@ -1,0 +1,50 @@
+.movie {
+  aspect-ratio: 3/4;
+  border-radius: 10px;
+  max-height: 400px;
+  max-width: 250px;
+  object-fit: cover;
+}
+
+.movie:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.row-row {
+  margin-right: auto !important;
+}
+
+.nav-item {
+  background-color: black !important;
+  margin-block: auto;
+}
+
+
+.App {
+  text-align: center;
+  width: 100%;
+  background-color: black!important;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow-x: scroll;
+}
+
+.nav-Link {
+  color: white;
+}
+
+.text078 {
+    color: green;
+    content:"Search in TV Shows…";
+}
+
+
