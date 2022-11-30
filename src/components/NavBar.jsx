@@ -33,7 +33,7 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ListGroup className="navbar-nav me-auto mb-2 mb-lg-0 text-dark">
             <ListGroupItem className="nav-item">
-              <Button className="nav-Link" onClick={() => navigate("/Home")}>
+              <Button className="nav-Link" onClick={() => navigate("/")}>
                 Home
               </Button>
             </ListGroupItem>

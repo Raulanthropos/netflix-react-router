@@ -18,7 +18,7 @@ const NotFound = () => {
           />
         </Col>
         <Col>
-          <Button variant="danger" className="mt-3" onClick={() => navigate("/Home")}>
+          <Button variant="danger" className="mt-3" onClick={() => navigate("/")}>
             Go back to the Home page...
           </Button>
         </Col>
